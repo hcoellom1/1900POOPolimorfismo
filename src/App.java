@@ -6,6 +6,12 @@ public class App {
 
         Vehiculo[] vehiculos = {moto, auto, bici};
 
+        Auto nVehiculoDos = new Auto("Mitsubishi", 4);
+        nVehiculoDos.encenderMotor();
+        nVehiculoDos.encenderMotor();
+        nVehiculoDos.apagarMotor();
+        nVehiculoDos.encenderMotor();
+
         for (Vehiculo actual : vehiculos) {
             actual.mover();
         }
